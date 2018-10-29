@@ -1,0 +1,209 @@
+fieldset {
+	margin-bottom: 25px;
+	background-color: #e0f1f8;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+legend {
+	border: none;
+	width: 325px;
+	padding-left: 30px;
+	background-color: #e0f1f8;
+	font-family: 'Open Sans', sans-serif;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 16px;
+	margin-bottom: 5px;
+
+}
+#coapplicant legend {
+	border: none;
+	width: 625px;
+	padding-left: 30px;
+	background-color: #e0f1f8;
+	font-family: 'Open Sans', sans-serif;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-size: 16px;
+}
+
+#no_bank, #no_bank_pd{
+	margin-top:40px;
+}
+
+#coapp_legend {
+	margin-left: 100px;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.col-50 {
+	width: 48%;
+	margin-right: 2px;
+	float: left;
+}
+.col-33 {
+	width: 32%;
+	margin-right: 2px;
+	float: left;
+}
+label {
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 1px;
+}
+#p2_checkbtn {
+	padding-top: 35px;
+}
+#p2_checkimg {
+	padding-top: 25px;
+}
+#btnRow {
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.form-control {
+	width: 100% !important;
+}
+fieldset .row {
+}
+#p2_coreg_txt {
+	width: 100%;
+	font-size: 14px;
+	line-height: 16px;
+	padding-top: 10px;
+}
+
+.panel-wizard .wizard {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #eeeeee;
+    border-color: #cccccc; #ddd #ddd;
+    border-image: none;
+    border-radius: 0 0 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    padding: 15px;
+}
+
+.panel-wizard .wizard::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.ckbox,.rdio
+{
+  position:relative;
+}
+
+.ckbox input[type="checkbox"],.rdio input[type="radio"]
+{
+  opacity:1;
+}
+
+.ckbox label,.rdio label
+{
+  padding-left:10px;
+  cursor:pointer;
+  margin-bottom:7px!important;
+}
+
+div.ckbox input#Agree
+{
+  margin-top:0;
+}
+
+.ckbox label:before
+{
+  width:18px;
+  height:18px;
+  position:absolute;
+  top:1px;
+  left:0;
+  content:'';
+  display:inline-block;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  border:1px solid #bbb;
+  background:#fff;
+}
+
+.ckbox input[type="checkbox"]:checked + label:after
+{
+  font-family:FontAwesome;
+  content:"\F00C";
+  position:absolute;
+  top:2.5px;
+  left:3.5px;
+  display:inline-block;
+  font-size:11px;
+  width:16px;
+  height:16px;
+  color:#fff;
+}
+
+.ckbox-default input[type="checkbox"]:checked + label:after
+{
+  color:#333;
+}
+
+.ckbox-primary input[type="checkbox"]:checked + label:before
+{
+  background-color:#428BCA;
+  border-color:#357EBD;
+}
+
+.ckbox-warning input[type="checkbox"]:checked + label:before
+{
+  background-color:#F0AD4E;
+  border-color:#EEA236;
+}
+
+.ckbox-success input[type="checkbox"]:checked + label:before
+{
+  background-color:#5cb85c;
+  border-color:#5cb85c;
+}
+
+.ckbox-danger input[type="checkbox"]:checked + label:before
+{
+  background-color:#D9534F;
+  border-color:#D43F3A;
+}
+
+@media screen and (max-width:480px){
+legend {
+	width: 280px;
+	font-size: 14px;
+}
+#coapplicant legend {
+	width: 250px;
+}
+#coapp_legend {
+	margin-left: 1px;
+	font-size: 12px;
+	display: block;
+}
+.form-control {
+	width: 100%;
+}
+select{
+font-size: 50px;
+}
+
+
+
+}
